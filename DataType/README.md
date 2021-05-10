@@ -2,7 +2,7 @@
 
 ## `let`
 
-mutable data type
+variable, rw(read/write)
 
 <br/>
 
@@ -32,6 +32,9 @@ console.log(name);
 
 ## `const`
 
+use const whenever possible.  
+only use leet if variable needs to change.
+
 favor immutable data type always for a few reasons:
 
 - security
@@ -42,9 +45,19 @@ favor immutable data type always for a few reasons:
 
 # Variable Types
 
-- primitive, single item: number, string, boolean, null, undefined, symbol
-- object, box container
+- Primitive, Single item: number, string, boolean, null, undefined, symbol
+- Object, box container
 - function, first-class function
+
+### `Immutable data types`
+
+primitive types, frozen objects (i.e. object.freeze())
+
+### `Mutable data types`
+
+all objects by default are mutable in JS
+
+<br/>
 
 ## `Number`
 
