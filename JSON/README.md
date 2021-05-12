@@ -15,7 +15,7 @@
 
 <br/>
 
-## Object to JSON
+## `Object to JSON`
 
 ### stringfy(obj)
 
@@ -68,7 +68,7 @@ console.log(json);
 
 <br/>
 
-## JSON to Object
+## `JSON to Object`
 
 ### parse(json)
 
