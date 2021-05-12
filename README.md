@@ -14,15 +14,13 @@
 
 ## [7. Array](./Array/README.md)
 
-## [8. Array](./Array/README.md)
+## [8. JSON](./JSON/README.md)
 
-## [9. JSON](./JSON/README.md)
+## [9. Callback](./Callback/README.md)
 
-## [10. Callback](./Callback/README.md)
+## [10. Promise](./Promise/README.md)
 
-## [11. Promise](./Promise/README.md)
-
-## [12. Async & Await](./Async_Await/README.md)
+## [11. Async & Await](./Async_Await/README.md)
 
 <br/>
 
