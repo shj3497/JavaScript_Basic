@@ -1,9 +1,5 @@
 # JavaScript
 
-### [`DreamCoding by 엘리`](https://www.youtube.com/channel/UC_4u-bXaba7yrRz_6x6kb_w)
-
-<br/>
-
 ## [1. Script](./Script/README.md)
 
 ## [2. DataType](./DataType/README.md)
@@ -27,3 +23,7 @@
 ## [11. Promise](./Promise/README.md)
 
 ## [12. Async & Await](./Async_Await/README.md)
+
+<br/>
+
+### [`DreamCoding by 엘리`](https://www.youtube.com/channel/UC_4u-bXaba7yrRz_6x6kb_w)

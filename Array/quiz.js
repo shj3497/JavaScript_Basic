@@ -1,9 +1,9 @@
 // Q1. make a string out of an array
 {
   const fruits = ['apple', 'banana', 'orange'];
-  console.log('toString : '+fruits.toString())
-  console.log('join : ' + fruits.join())
+  console.log(fruits.toString())
 }
+
 
 // Q2. make an array out of a string
 {
@@ -20,8 +20,7 @@
 // Q4. make new array without the first two elements
 {
   const array = [1, 2, 3, 4, 5];
-  const result = array.slice(2,5);
-  console.log(result);
+  console.log(array.splice(2,array.length -1))
 }
 
 class Student {
@@ -47,11 +46,6 @@ const students = [
       console.log(student);
     }
   })
-
-  const result = students.find(student => {
-    return student.score === 90;
-  })
-  console.log(result);
 }
 
 // Q6. make an array of enrolled students
@@ -64,8 +58,6 @@ const students = [
   })
   console.log(enrolledStudent);
 
-  const result = students.filter(student => student.enrolled);
-  console.log(result);
 }
 
 // Q7. make an array containing only the students' scores
@@ -76,10 +68,6 @@ const students = [
     result.push(student.score)
   })
   console.log(result);
-
-  // 자동으로 배열로 리턴
-  const result2 = students.map(student => student.score)
-  console.log(result2);
 }
 
 // Q8. check if there is a student with the score lower than 50
@@ -88,13 +76,8 @@ const students = [
     if(student.score < 50) console.log(student);
   })
 
-  // some : 일부 데이터가
   const result = students.some(student => student.score < 50);
-  console.log(result); // true
-
-  // every : 모든 데이터가
-  const result2 = students.every(student => student.score < 50);
-  console.log(result2); // false
+  console.log(result);
 }
 
 // Q9. compute students' average score
@@ -105,15 +88,6 @@ const students = [
   });
   let result = scoreSum/students.length;
   console.log(result);
-
-  // prev는 이전에 리턴된값이 들어온다.
-  const result2 = students.reduce((prev, curr) => {
-    console.log('------');
-    console.log(prev);
-    console.log(curr);
-    return prev + curr.score;
-  },0)
-  console.log(result2/students.length)
 }
 
 // Q10. make a string containing all the scores
