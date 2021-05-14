@@ -16,11 +16,7 @@
 
 ## [8. JSON](./JSON/README.md)
 
-## [9. Callback](./Callback/README.md)
-
-## [10. Promise](./Promise/README.md)
-
-## [11. Async & Await](./Async_Await/README.md)
+## [9. Async](./Async/README.md)
 
 <br/>
 
